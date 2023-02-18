@@ -16,7 +16,6 @@ public class leetcode {
             product = product * i;
 
         }
-        System.out.println(sum);
-        System.out.println(product);
+        return product - sum;
     }
 }
